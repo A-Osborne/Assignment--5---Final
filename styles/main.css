@@ -1,0 +1,249 @@
+/* DESKTOP Styles */
+* {
+	box-sizing: border-box;
+}
+html {
+	margin: 0 auto;
+}
+header {
+	z-index: 25;
+	margin: 0 auto;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	background-color: grey;
+}
+#headerLeft {
+	text-align: center;
+	float: left;
+	width: 50%;
+}
+#logo {
+	margin: 0 auto;
+}
+#headerRight {
+	text-align: center;
+	float: right;
+	width: 50%;
+}
+#menu {
+	font-size: 20px;
+	margin-top: 35px;
+	margin-left: -200px;
+	list-style-type: none;
+}
+#menu li {
+	display: inline;
+	padding: 0px 30px;
+}
+#menu li:hover {
+	background-color: orange;
+	border-radius: 10px;
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+#menu a {
+	text-decoration: none;
+	color: orange;
+}
+#menu li a:hover {
+	color: white;
+	-webkit-transition: all 1s ease-in-out;
+}
+.section {
+	/* so it fits between header and footer */
+	text-align: center;
+	height: 755.5px;
+	padding: 120px 20px 50px 20px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+#topSection {
+	background-color: rgba(255,120,0,0.5);
+}
+#heroImg {
+	z-index: 100;
+	margin: 0 20%;
+	width: 60%;
+}
+#subHeading {
+	color: white;
+	font-size: 30px;
+	margin-bottom: -70px;
+}
+#galleryPhoto {
+	width: 80%;
+	margin: 0 10%;
+}
+#middleLeft {
+	float: left;
+	width: 50%;
+	padding: 0 20px;
+}
+#middleRight {
+	float: right;
+	width: 50%;
+	padding: 0 20px;
+}
+#bottomSection {
+	padding-top: 170px;
+	background-color: rgba(255,120,0,0.5);
+}
+footer {
+	z-index: 25;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+	padding: 0px 10px;
+	background-color: grey;
+}
+ul#listOfLogos {
+	list-style-type: none;
+	display: inline;
+}
+#browserLogo {
+	width: 100px;
+}
+footer {
+	color: white;
+	text-align: center;
+}
+
+/*** MEDIA QUERIES ***/
+
+		/** Tablets Media Queries **/
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+
+	header {
+		height: 150px;
+	}
+	#topSection {
+		padding-top: 180px;
+	}
+	#headerLeft,
+	#headerRight {
+		width: 100%;
+	}
+	#menu {
+		margin-top: 10px;
+		margin-left: -20px;
+		width: 100%;
+	}
+	#menu li {
+		padding: 0 10px;
+	}
+	#heroImg {
+		margin: 0 15%;
+		width: 70%;
+	}
+	#middleLeft,
+	#middleRight {
+		width: 100%;
+		margin-top: 100px;
+	}
+	#middleRight {
+		margin-top: 0px;
+	}
+	#galleryPhoto {
+	width: 90%;
+	margin: 0 5%;
+	}
+	.active {
+		width: 90%;
+	}
+	#content {
+		margin-top: 200px;
+	}
+	.section {
+		padding-top: 120px;
+		font-size: 18px;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	#middleSection {
+		padding-top: 140px;
+	}
+	footer {
+		padding-top: 5px;
+		font-size: 12px;
+	}
+
+}
+		/** Smartphone Media Queries **/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	
+	header {
+		height: 150px;
+	}
+	#headerLeft,
+	#headerRight {
+		width: 100%;
+	}
+	.section {
+		padding-top: 170px;
+		font-size: 18px;
+	}
+	#menu {
+		margin-top: 10px;
+		margin-left: -20px;
+		width: 100%;
+	}
+	#menu li {
+		padding: 0 5px;
+	}
+	#topSection {
+		padding-top: 170px;
+	}
+
+	h1#title {
+		margin-top: 33px;
+		font-size: 20px;
+		font-family: arial;	
+	}
+	#heroImg {
+	margin: 0 2.5%;
+	width: 95%;
+	}
+	#middleLeft,
+	#middleRight {
+		width: 100%;
+	}
+	#galleryPhoto {
+	width: 95%;
+	margin: 0 2.5%;
+	}
+	section {
+		width: 100%;
+	}
+	.section {
+		padding-top: 170px;
+		font-size: 18px;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	#subHeading {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	footer {
+		padding-top: 5px;
+		font-size: 12px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

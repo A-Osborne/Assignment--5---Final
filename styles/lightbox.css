@@ -1,0 +1,22 @@
+
+#lightbox {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+#content {
+  color: #fff;
+  margin: 120px 5%;
+  width: 90%;
+}
+
+.active {
+  z-index: 100;
+  width: 80%;
+}

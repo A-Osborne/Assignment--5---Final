@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Allan Osborne">
+		<title>Final Assignment</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/lightbox.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<script src="scripts/jquery.1.11.0.min.js"></script>
+		<script src="scripts/jquery.slimscroll.min.js"></script>
+		<script src="scripts/jquery.fullPage.js"></script>
+		<script src="scripts/jquery.easings.min.js"></script>
+		<script src="scripts/lightbox.js"></script>
+		<script src="scripts/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<section id="headerLeft">
+				<img id="siteLogo" src="assets/img/siteLogo.png">
+			</section>
+			<section id="headerRight">
+				<ul id="menu">
+					<li data-menuanchor="firstPage" class="active"><a href="#firstPage">About Plugin</a></li>
+		    		<li data-menuanchor="secondPage"><a href="#secondPage">Gallery</a></li>
+		    		<li data-menuanchor="thirdPage"><a href="#thirdPage">Get Updates</a></li>
+				</ul>
+			</section>
+		</header>
+		<div id="fullpage">
+		    <div class="section" id="topSection">
+		    	<img id="heroImg" src="assets/img/previewMB.png"/>
+				<p>Sublime's Site Overview Plugin allows for easy editing. It allows you to not have a browser open when your are coding.</p>
+				<p>For example, when you save everytime, you have to go back to the browser that you are currently working on and refreshing it to see your latest changes.</p> 
+				<p>With the Site Overview Plugin, there's no need to refresh your browser, let alone not needing a browser. It'll update everytime you edit code.</p>
+			</div>
+		    <div class="section" id="middleSection">
+		    	<p id="subHeading">Gallery</p>
+		    	<section id="middleLeft">
+		    		<img class="lightbox_trigger" src="assets/img/previewMB.png" id="galleryPhoto" data-title="The PREVIEWS Tab is located on the top-right hand corner on the tabs section of SubLime. This where you can find 3 sub sections: Desktop Mode, Tablet Mode, and Mobile Mode. These areas are updated everytime you save your document, so you won't need a browser to see what you have updated.">
+		    		<img class="lightbox_trigger" src="assets/img/tabletMB.png" id="galleryPhoto" data-title="TABLET MODE is where your website is showcased on tablet devices. *** needs media queries to see updates ***">
+		    	</section>
+		    	<section id="middleRight">
+		    		<img class="lightbox_trigger" src="assets/img/desktopMB.png" id="galleryPhoto" data-title="DESKTOP MODE is where your website is showcased in desktop mode (in setting of sublime, you can choose between IE, Safari, Chrome and Firefox for you browser of choice)">
+		    		<img class="lightbox_trigger" src="assets/img/mobileMB.png" id="galleryPhoto" data-title="MOBILE MODE is where your website is showcased on mobile devices. *** needs media queries to see updates ***">
+		    	</section>
+		    </div>
+		    <div class="section" id="bottomSection">
+		    	<p>Here's a list of Internet Browsers that the plugin is available to be used with:</p>
+		    	<ul id="listOfLogos">
+		    		<li><img id="browserLogo" src="assets/img/chrome_Logo.png"></li>
+		    		<li><img id="browserLogo" src="assets/img/safari_Logo.png"></li>
+		    		<li><img id="browserLogo" src="assets/img/ie_Logo.png"></li>
+		    		<li><img id="browserLogo" src="assets/img/firefox_Logo.png"></li>
+		    	</ul>
+		    </div>
+		</div>
+		<footer>
+			<p>Project by: Allan Osborne --- Web Programming II --- Humber College</p>
+		</footer>
+	</body>
+</html>
